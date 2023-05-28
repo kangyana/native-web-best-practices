@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="renderer" content="webkit" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <title>智慧城市驾驶舱</title>
+    <link rel="icon" href="./src/assets/icons/favicon.ico" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="./src/global.css" />
+    <script src="./src/index.js" defer type="module"></script>
+  </head>
+
+  <body>
+    <div id="root">
+      <div class="screen">
+        <header class="header bg-img">智慧城市驾驶舱</header>
+        <panel-upper placement="left">
+          <span slot="title">人车数量统计</span>
+        </panel-upper>
+        <panel-lower placement="left">
+          <span slot="upperTitle">安防告警统计</span>
+          <span slot="lowerTitle">资产分类统计</span>
+        </panel-lower>
+        <panel-upper placement="right">
+          <span slot="title">能耗统计</span>
+        </panel-upper>
+        <panel-lower placement="right">
+          <span slot="upperTitle">环境质量统计</span>
+          <span slot="lowerTitle">智能预警统计</span>
+        </panel-lower>
+        <div class="body">
+          <video
+            class="body-bg"
+            src="./src/assets/videos/body_bg.mp4"
+            autoplay
+            loop
+            muted
+          ></video>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

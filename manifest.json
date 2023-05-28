@@ -1,0 +1,16 @@
+{
+  "name": "智慧城市驾驶舱",
+  "short_name": "智慧城市",
+  "start_url": ".",
+  "display": "fullscreen",
+  "background_color": "#e6f4ff",
+  "description": "数字孪生智慧城市驾驶舱",
+  "icons": [
+    {
+      "src": "assets/icons/favicon.ico",
+      "sizes": "48x48"
+    }
+  ],
+  "lang": "zh-CN",
+  "theme_color": "aliceblue"
+}

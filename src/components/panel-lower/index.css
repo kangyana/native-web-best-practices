@@ -1,0 +1,44 @@
+.bg-img {
+  image-rendering: -webkit-optimize-contrast;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.panel-lower {
+  position: absolute;
+  width: 431px;
+  height: 574px;
+  background-image: url(../../assets/images/panel_lower_bg.png);
+  z-index: 1;
+}
+.panel-lower.left {
+  left: 14px;
+  top: 456px;
+}
+.panel-lower.right {
+  left: 1475px;
+  top: 456px;
+}
+.panel-lower-title {
+  position: absolute;
+  width: 231px;
+  height: 56px;
+  font-size: 18px;
+  line-height: 56px;
+  font-weight: bold;
+}
+.panel-lower-title.upper {
+  left: 34px;
+  top: 30px;
+}
+.panel-lower-title.lower {
+  left: 34px;
+  top: 255px;
+}
+.panel-lower-divider {
+  position: absolute;
+  left: 29px;
+  top: 242px;
+  width: 384px;
+  height: 17px;
+  background-image: url(../../assets/images/divider_bg.svg);
+}
