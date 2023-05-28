@@ -47,6 +47,10 @@ class ComponentA extends Component {
 }
 ```
 
+```html
+<template id="component-a">something</template>
+```
+
 ### 注册组件
 
 在[入口文件](./src/index.js)，使用 `registerComponents` 方法注册：
